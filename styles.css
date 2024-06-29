@@ -1,0 +1,351 @@
+@import url("https://fonts.google.com/specimen/Inter");
+*{
+    box-sizing: 0;
+
+}
+body{
+    overflow-x: hidden;
+    padding: 20px 50px;
+    font-family: 'Inter';
+
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar .hbg{
+    display: none;
+}
+
+
+.menu .menu-list{
+    display: flex;
+    list-style: none;
+}
+
+.menu .menu-items{
+    padding: 0.5rem 1rem;
+}
+
+.links{
+    color: #000000;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 05px;
+    border-bottom: 02px solid transparent;
+    transition: all 0.25s;
+}
+
+.links:hover{
+    border-bottom: 02px solid #000000;
+}
+
+.hero{
+    display: flex;
+}
+
+.left{
+    flex-basis: 75%;
+}
+
+.text{
+    display: flex;
+    gap: 38%;
+}
+
+.bright{
+    font-weight: 800;
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.paraph{
+    font-size: 15px;
+    line-height: 25px;
+}
+
+button{
+    background-color: hsl(5, 85%, 63%);
+    padding: 10px;
+    border: 0;
+    font-weight: 800;
+}
+
+p{
+    font-size: 15px;
+}
+
+
+.right{
+    flex-basis: 25%;
+    background-color:hsl(240, 100%, 5%) ;
+    color: #ffffff;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 475px;
+    line-height: 25px;
+    
+}
+
+.title-right{
+    color: hsl(35, 77%, 62%);
+}
+
+.img-1{
+    width: 95%;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 50px;
+    
+}
+
+.grid-1{
+    display: flex;
+    gap: 1.25rem;
+    flex-basis: 37.5%;
+}
+
+.grid-2{
+    display: flex;
+    gap: 1.25rem;
+    flex-basis: 37.5%;
+}
+
+.grid-3{
+    display: flex;
+    gap: 1.25rem;
+}
+
+.number{
+    color: hsl(5, 85%, 63%);
+}
+
+@media (max-width: 600px){
+    *{
+        /* padding: 0; */
+        /* margin: 0; */
+        box-sizing: 0;
+    }
+    .body{
+        overflow-x: hidden;
+        padding: 10px;
+        /* width: 100%; */
+    }
+
+    header{
+        width: 80%;
+    }
+
+    .menu{
+        display: none;
+    }
+
+    .container{
+        margin: 20px;
+        justify-content: center;
+    }
+
+  
+    .hero{
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+    }
+
+    .nav #hbg{
+        display: block;
+        color: #000000;
+        padding: 0 2rem;
+    }
+
+    .img-1{
+        width: 380px;
+        height: 250px;
+    }
+
+    .bright{
+        font-weight: 800;
+        font-size: 50px;
+        font-weight: 800;
+    }
+
+    .paragraph{
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+
+    .paraph{
+        font-size: 17px;
+        line-height: 25px;
+    }
+
+    .right{
+        flex-basis: 25%;
+        background-color:hsl(240, 100%, 5%) ;
+        color: #ffffff;
+        padding-left: 15px;
+        padding-right: 15px;
+        height: 475px;
+        line-height: 25px;
+        font-weight: 12px;
+        width: 380px;
+        
+    }
+
+    .text{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+
+    .grid{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .number{
+        font-size: 18px;
+    }
+
+    /* .p-grid{
+        font-size: 10px;
+    } */
+
+    .image{
+        width: 50px;
+    }
+
+ 
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px){
+    *{
+        /* padding: 0; */
+        /* margin: 0; */
+        box-sizing: 0;
+    }
+    .body{
+        overflow-x: hidden;
+        padding: 05px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .container-princip{
+        /* margin-right: 70px; */
+    }
+
+    header{
+        width: 80%;
+    }
+
+    .menu{
+        display: none;
+    }
+
+    .container{
+        margin: 05px;
+        justify-content: center;
+    }
+
+  
+    .hero{
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+    }
+
+    .nav #hbg{
+        display: block;
+        color: #000000;
+        padding: 0 2rem;
+    }
+
+    .img-1{
+        width: 300px;
+        height: 250px;
+    }
+
+    .bright{
+        font-weight: 800;
+        font-size: 40px;
+        font-weight: 800;
+    }
+
+    .paragraph{
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+
+    .paraph{
+        font-size: 13px;
+        line-height: 25px;
+    }
+
+    .right{
+        flex-basis: 25%;
+        background-color:hsl(240, 100%, 5%) ;
+        color: #ffffff;
+        padding-left: 10px;
+        padding-right: 15px;
+        height: 475px;
+        line-height: 25px;
+        font-weight: 12px;
+        width: 270px;
+        
+    }
+
+    .text{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+
+    .grid{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .grid-1{
+        display: flex;
+        flex-basis: 0;
+        margin-top: 0;
+    }
+
+    .text-grid-1{
+        margin-top: 0;
+        
+    }
+
+    .number{
+        font-size: 25px;
+    }
+
+    /* .p-grid{
+        font-size: 10px;
+    } */
+
+    .image{
+        width: 70px;
+        margin: 0;
+    }
+
+    .img-grid{
+        height: 80px;
+    }
+
+}
+
+@media screen and (min-width: 820px) {
+    #hamburger{
+        display: none;
+    }
+    
+    
+}
