@@ -295,8 +295,7 @@ p{
     .right{      
         background-color:hsl(240, 100%, 5%) ;
         color: #ffffff;
-         padding-left: 10px;
-        padding-right: 15px; 
+        padding: 15px; 
         height: 475px;
         line-height: 25px;
         font-weight: 12px;
